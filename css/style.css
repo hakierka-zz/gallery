@@ -54,12 +54,14 @@ img {
 .rate:not(:checked) label:hover ~ label {
   color: #deb217; }
 
-@media (max-width: 768px) {
-  .rate {
-    float: left;
-    margin-bottom: 10px; }
+@media (max-width: 767px) {
+  .title {
+    display: flex;
+    flex-direction: column; }
 
-  .brand {
-    display: inline-block; } }
+  .rate {
+    margin-bottom: 5px;
+    display: flex;
+    height: 16px; } }
 
 /*# sourceMappingURL=style.css.map */
